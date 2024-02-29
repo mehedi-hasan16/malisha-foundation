@@ -1,0 +1,14 @@
+
+.campaign_single .campaign_single_btn{
+    position: absolute;
+    width: 100%;
+    bottom: -48px;
+    transition: bottom 0.5s;
+    opacity: 0;
+ 
+}
+.campaign_single:hover .campaign_single_btn{
+    bottom: 0;
+    opacity: 1;
+    
+}

@@ -1,0 +1,26 @@
+:root{
+    --primary: #DA291C;
+    --primary-container: #FFDAD4;
+    --on-primary-container: #7E1810;
+    --secondary: #009CA6;
+    --secondary-container: #7DF4FF;
+    --on-secondary-container: #00727A;
+    --tertiary: #FDAE2D;
+    --tertiary-container: #FFDDB4;
+    --on-tertiary-container: #8D5801;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    html {
+        font-family:'Barlow', sans-serif;
+    }
+  }
+
+
+/* global css */
+.slick-dots li button:before{
+    font-size: 18px !important;
+}

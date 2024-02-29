@@ -1,0 +1,60 @@
+.customNavMenu .customNavMenu_droupdown{
+    transform: translateX(-20px);
+    transition: all linear 0.3s;
+    visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(18, 18, 18, 0.24);
+    border-radius: 10px;
+}
+.customNavMenu:hover .customNavMenu_droupdown{
+    transform: translateX(0%);
+    visibility: visible;
+}
+.customNavMenu .customNavMenu_a:hover span svg path{
+    fill:var(--primary)
+}
+.customNavMenu .customNavMenu_a.active{
+    color:var(--primary)
+}
+
+
+@media screen and (max-width:1024px) {
+    .header .mobile_menu{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        flex-direction: column;
+        top: 0;
+        background: #000;
+        transition: all linear 0.3s;
+        transform: translateX(100%);
+        justify-content: flex-start;
+        overflow-y: auto;
+        padding-bottom: 40px;
+    }
+    .header .mobile_menu_show{
+        transform: translateX(0%);
+    }
+
+    .customNavMenu .customNavMenu_droupdown{
+        transform: translateX(0px);
+        transition: all linear 0.3s;
+        visibility: visible !important;
+        position: relative;
+        top: 24px;
+        height: 0;
+        margin-left: -74px;
+        padding: 0;
+
+    }
+    .customNavMenu:hover .customNavMenu_droupdown{
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    .customNavMenu.customActiveMenu .customNavMenu_droupdown{
+        height: calc(100% - 24px);
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
