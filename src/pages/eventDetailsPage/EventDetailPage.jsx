@@ -134,7 +134,7 @@ const EventDetailPage = () => {
           </div>
         </div>
       </div>
-      <BecomeYoutuber />
+      {/* <BecomeYoutuber /> */}
       <Feature />
       <LatestNews />
     </div>

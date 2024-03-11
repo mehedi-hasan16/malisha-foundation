@@ -125,7 +125,7 @@ const ContactUsPage = () => {
           </div>
         </div>
       </div>
-      <BecomeYoutuber />
+      {/* <BecomeYoutuber /> */}
       <Feature />
       <LatestNews />
     </div>

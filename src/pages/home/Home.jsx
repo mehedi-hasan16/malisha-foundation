@@ -26,7 +26,7 @@ const Home = () => {
           <Campaign/>
           <DecauseWeCam/>
           <UpcommingEvent/>
-          <MeetOurTeam/>
+          {/* <MeetOurTeam/> */}
           {/* <BecomeYoutuber/> */}
           <Feature/>
           <LatestNews/>

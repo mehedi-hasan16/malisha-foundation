@@ -31,9 +31,9 @@ const AboutUs = () => {
         <BreadCrumb title="About Us" breadCrumbArray={breadCrumbArray} />
         <AboutSecetion/>
         <DecauseWeCam/>
-        <MeetOurTeam/>
+        {/* <MeetOurTeam/> */}
         <QuestionSection/>
-        <BecomeYoutuber/>
+        {/* <BecomeYoutuber/> */}
         <div className='pb-12 sm:pb-20'>
           <Feature/>
         </div>

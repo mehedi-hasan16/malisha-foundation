@@ -9,7 +9,7 @@ const LatestNews = () => {
   const latestArray = [
     {
       id: 1,
-      title: "How to find a family",
+      title: "We supported him with financial aid",
       text: "Learn More",
       link: "#",
       img: latestImg,
@@ -18,21 +18,21 @@ const LatestNews = () => {
     },
     {
       id: 2,
-      title: "How to find a family",
+      title: "We secured a scholarship for higher studies",
       text: "Learn More",
       link: "#",
       img: latestImg2,
       comment: 1,
-      date: '12 March, 2021'
+      date: '2 January, 2022'
     },
     {
       id: 3,
-      title: "How to find a family",
+      title: "We aided him in acquiring educational tools",
       text: "Learn More",
       link: "#",
       img: latestImg3,
       comment: 1,
-      date: '12 March, 2021'
+      date: '25 March, 2023'
     },
 
 

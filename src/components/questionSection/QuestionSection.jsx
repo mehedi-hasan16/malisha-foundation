@@ -14,18 +14,18 @@ const QuestionSection = () => {
         </div>
         <div className='container mx-auto px-4'>
           <div className='flex flex-col gap-4'>
-            <Accordian title="Nulla eu purus scelerisque, dignissim diam." 
+            <Accordian title="Transforming Lives: Malisha Foundation's Impact in Education." 
                accOpenStatus={false}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing. Mauris sit quam est dui vitae.
+                Malisha Foundation stands out as a beacon of hope, dedicated to transforming the lives of underprivileged students through its educational initiatives. From scholarships to essential materials and medical services, this non-profit organization leaves an indelible mark on communities by providing vital support where it's needed most.
              </Accordian>
-             <Accordian title="Nulla eu purus scelerisque, dignissim diam.">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing. Mauris sit quam est dui vitae.
+             <Accordian title="Empowering Futures: Malisha Foundation's Commitment to Education.">
+             With a steadfast commitment to education, Malisha Foundation empowers individuals from marginalized backgrounds to dream big and achieve their goals. Through a comprehensive range of scholarships, educational materials, and financial aid, this non-profit organization paves the way for brighter futures, leaving a lasting impact on countless lives.
              </Accordian>
-             <Accordian title="Nulla eu purus scelerisque, dignissim diam.">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing. Mauris sit quam est dui vitae.
+             <Accordian title="Making a Difference: Malisha Foundation's Educational Outreach.">
+             Malisha Foundation's dedication to making a positive difference in the lives of the underprivileged shines through its educational outreach programs. By providing scholarships, materials, and medical services, this non-profit organization not only addresses immediate needs but also lays the foundation for long-term success and empowerment.
              </Accordian>
-             <Accordian title="Nulla eu purus scelerisque, dignissim diam.">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing. Mauris sit quam est dui vitae.
+             <Accordian title="Hope in Education: Malisha Foundation's Compassionate Support.">
+             Malisha Foundation embodies the spirit of compassion and support in its mission to uplift underprivileged individuals through education. Through a holistic approach that includes scholarships, essential materials, and medical services, this non-profit organization offers hope and opportunities for a brighter future to those who need it most.
              </Accordian>
            
           </div>

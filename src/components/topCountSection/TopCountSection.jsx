@@ -12,19 +12,19 @@ const data = [
     id: 2,
     icon: Icons.donateMoneyIcon1,
     count: 1780,
-    subTitle: 'People help Last year'
+    subTitle: 'Financial Aid Last year'
   },
   {
     id: 3,
     icon: Icons.calendarColorIcon,
     count: 1520,
-    subTitle: 'People help Last year'
+    subTitle: 'Student helped Last year'
   },
   {
     id: 4,
     icon: Icons.foodBoxIcon,
     count: 8920,
-    subTitle: 'People help Last year'
+    subTitle: 'Medical Service Last year'
   }
 ]
 const TopCountSection = () => {

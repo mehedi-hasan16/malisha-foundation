@@ -86,12 +86,12 @@ const Causes = () => {
         <p className='pt-4 leading-7 font-normal text-lg m-0 break-words text-gray-700'>
           {item.content}
         </p>
-        <ProgressLise percentageColor="text-gray-800" height='h-3' percentage={item.percentage} />
+        {/* <ProgressLise percentageColor="text-gray-800" height='h-3' percentage={item.percentage} /> */}
       </div>
-      <div className='flex justify-between pt-4'>
+      {/* <div className='flex justify-between pt-4'>
         <h5 className="text-gray-700 text-base font-bold m-0 break-words">{`Ralsed: ${item.Ralsed}`} </h5>
         <h5 className="text-gray-700 text-base font-bold m-0 break-words">{`Ralsed: ${item.Ralsed}`} </h5>
-      </div>
+      </div> */}
     </div>
   ))
 
@@ -115,7 +115,7 @@ const Causes = () => {
         </div>
         <Pagination />
       </div>
-      <BecomeYoutuber />
+      {/* <BecomeYoutuber /> */}
       <Feature />
       <LatestNews />
     </div>

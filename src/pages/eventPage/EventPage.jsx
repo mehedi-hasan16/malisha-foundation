@@ -133,8 +133,8 @@ const EventPage = () => {
         </div>
         <Pagination />
       </div>
-      <BecomeYoutuber />
-      <Feature />
+      {/* <BecomeYoutuber /> */}
+      {/* <Feature /> */}
       <LatestNews />
     </div>
   )

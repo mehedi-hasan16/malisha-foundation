@@ -31,9 +31,11 @@ const Footer = () => {
         <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
           <div>
             <img src={whiteLogo} alt="footer logo" />
+            <a href="https://shorturl.at/vxARZ">
             <button className='mt-6 rounded-3xl py-2 px-6 text-base font-bold tracking-0.5 transition-all duration-0.5 text-white hover:text-primary border-2 border-primary bg-primary hover:bg-transparent'>
-              Donate Now
+            Apply Scholarship 
             </button>
+            </a>
           </div>
           <div>
             <h4 className='pb-7 text-white lg:text-2xl md:text-xl text-lg font-bold m-0 break-words'>Quick Links</h4>

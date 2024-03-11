@@ -88,7 +88,7 @@ const Feature = () => {
 
   return (
     <div>
-      <div className='container max-w-2xl mx-auto px-4 text-center'>
+      <div className='container max-w-2xl mx-auto px-4 text-center mt-16'>
         <h4 className='pb-2 text-primary font-bold text-sm m-0 break-words uppercase tracking-widest'>Feature donor reviews</h4>
         <h2 className='text-gray-900 pb-4 text-xl lg:text-5xl md:text-3xl font-bold m-0 break-words'>What People say About Our Charity</h2>
         <p className='leading-7 font-normal text-lg text-gray-800 pb-12 m-0 break-words'>

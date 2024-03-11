@@ -13,30 +13,30 @@ const data = [
         image: campaignImg1,
         tag: 'Scholarship',
         btnTitle: "See Details",
-        subtitle: "Title name is here",
-        content: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing.",
-        percentage: '35',
-        Ralsed: "$5,000"
+        subtitle: "We helped secure a scholarship for studying abroad",
+        content: " In 2023, [Name] was awarded a scholarship to study at Yangzhou University through the Maliasha Foundation. With our support and guidance, [he/she/they] successfully secured this prestigious opportunity, enabling [him/her/them] to pursue [his/her/their] academic goals in a dynamic international environment at Yangzhou University.",
+        // percentage: '35',
+        // Ralsed: "$5,000"
     },
     {
         id: 2,
         image: campaignImg2,
-        tag: 'Medical Service',
+        tag: 'Educational Instruments',
         btnTitle: "See Details",
-        subtitle: "Title name is here",
-        content: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing.",
-        percentage: '67',
-        Ralsed: "$5,000"
+        subtitle: "Malasha Foundation Supports Student with Educational Instruments",
+        content: "The Maliasha Foundation is proud to have facilitated a student's academic journey by supplying essential educational instruments. Through our commitment to empowering learners, we aim to remove barriers to education and enable students to excel in their studies. By providing these resources, we strive to foster a conducive learning environment where every student can thrive and reach their full potential.",
+        // percentage: '67',
+        // Ralsed: "$5,000"
     },
     {
         id: 3,
         image: campaignImg3,
         tag: 'Financial Aid',
         btnTitle: "See Details",
-        subtitle: "Title name is here",
-        content: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id augue semper arcu enim viverra sit ipsum. Nunc lorem a vulputate eget bibendum id et. Eget nunc, eu, molestie tellus sollicitudin vitae consequat adipiscing.",
-        percentage: '80',
-        Ralsed: "$5,000"
+        subtitle: "Maliasha Foundation's Financial Aid",
+        content: " Discover the key to unlocking your educational aspirations with Maliasha Foundation's financial aid programs. Whether you're seeking scholarships, grants, or other forms of assistance, we're dedicated to supporting your journey towards academic success. Apply today and let us empower your future with the resources you need to thrive.",
+        // percentage: '80',
+        // Ralsed: "$5,000"
     },
 ]
 
@@ -62,13 +62,13 @@ const Campaign = () => {
             <div className='z-1 relative bg-on-tertiary'>
                 <h4 className='text-white pt-6 lg:text-2xl md:text-xl text-lg font-bold m-0 break-words'>{item.subtitle}</h4>
                 <p className='pt-4 pb-2 leading-7 font-normal text-lg text-white m-0 break-words'>{item.content}</p>
-                <ProgressLise height='h-3' percentage={item.percentage} />
+                {/* <ProgressLise height='h-3' percentage={item.percentage} /> */}
             </div>
-            <div className='flex justify-between pt-5'>
+            {/* <div className='flex justify-between pt-5'>
                 <h5 className="text-white text-base font-bold">Ralsed {item.Ralsed}</h5>
                 <h5 className="text-white text-base font-bold">Ralsed {item.Ralsed}</h5>
 
-            </div>
+            </div> */}
         </div>
     ))
 
